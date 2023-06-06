@@ -2,40 +2,14 @@
 
 
 
-### Description des données
-base-cc-tourisme-2022-geo2022-CSV:
+Résumé du projet :
 
-base-cc-tourisme-2022-geo2022-CSV/base-cc-tourisme-2022-geo2022.csv (La capacité des communes en hébergement touristique)
-base-cc-tourisme-2022-geo2022-CSV/meta_base-cc-tourisme-2022-geo2022.csv (Explications des champs de la base base-cc-tourisme-2022-geo2022.csv)
-base-pop-historiques-1876-2019.xlsx (Séries historiques de population (1876 à 2019))
+Ce projet a été réalisé dans le but d'analyser et de comprendre les données relatives au tourisme et à la population des communes en France. Les jeux de données utilisés comprenaient "base-cc-tourisme-2022-geo2022.csv" (capacité des communes en hébergement touristique), "meta_base-cc-tourisme-2022-geo2022.csv" (explications des champs de la base de données tourisme) et "base-pop-historiques-1876-2019.xlsx" (séries historiques de population de 1876 à 2019).
 
-conso-elec-gaz-annuelle-par-secteur-dactivite-agregee-commune-france.csv
-Analyse exploratoire des données
-Lire les jeux de données base-cc-tourisme-2022-geo2022.csv et base-pop-historiques-1876-2019.xlsx
+Les principales étapes du projet comprenaient :
+1. Analyse exploratoire des données : Lecture et fusion des jeux de données, analyse des valeurs manquantes et des outliers, et choix d'une méthode appropriée pour l'imputation des valeurs manquantes.
+2. Analyse en Composantes Principales (ACP) : Réalisation d'une ACP sur les données combinées, interprétation des résultats et représentation graphique des communes de France en deux dimensions.
+3. Clustering : Proposition et implémentation d'une méthode de clustering sur les données, justification du choix du nombre de clusters, interprétation des clusters obtenus, et représentation des communes sur les deux premiers axes de l'ACP avec une coloration en fonction du cluster.
+4. Machine Learning : Proposition et implémentation d'un modèle prédictif de la consommation électrique des communes dans les secteurs de l'agriculture, de l'industrie et du résidentiel.
 
-Merger les deux bases de données
-
-Analyser les valeurs manquantes et outliers
-
-Utiliser une méthode adéquate pour imputer les valeurs manquantes (expliquer et justifier le choix de votre méthode)
-
-Analyser la corrélation des variables
-
-### ACP
-
-Effectuer une ACP sur le jeu de données
-Expliquer toutes les étapes de votre ACP.
-Représenter sur un graphique de deux dimensions les communes de France.
-Expliquer votre graphique:
-Expliquer les deux axes obtenus (en utilisant les variables du jeu de données de départ)
-Expliquer le positionnement de quelques communes sur votre graphique (quels sont les elements qui caractérisent ces communes ?)
-
-### Clustering
-Proposer et implementer une méthode de clustering sur le jeu de données.
-Expliquer toutes les étapes de votre approche.
-Justifier votre choix du nombre de clusters.
-Interpréter les clusters obtenus.
-Représenter les communes sur les deux premiers axe de votre ACP avec mapping couleur en fonction du cluster.
-Machine Learning
-Proposer et implementer un modèle qui prédit la consommation électrique des communes dans l'agriculture, dans l'industrie et dans le residentiel.
-Expliquer toutes les étapes de votre approche.
+L'objectif global du projet était d'explorer les relations entre le tourisme, la population et la consommation électrique des communes en France, en utilisant des techniques telles que l'ACP, le clustering et le machine learning. Les différentes étapes du projet ont permis de fournir des analyses approfondies et des modèles prédictifs pour une meilleure compréhension de ces données.
